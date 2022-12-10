@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+  }
+
+  .mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 25%;
+  }
+  #addButton{
+    position: absolute;
+    margin-left: 5rem;
+    margin-right: 0%;
+  }
+  .pageTop{
+    margin-top: 1rem;
+    padding: 1rem;
+  }
