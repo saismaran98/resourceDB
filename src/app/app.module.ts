@@ -11,6 +11,9 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon';
+import {MatToolbarModule} from '@angular/material/toolbar';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +28,7 @@ import {MatIconModule} from '@angular/material/icon';
     MatPaginatorModule,
     MatFormFieldModule,
     MatInputModule,
-    MatIconModule
+    MatIconModule,MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
